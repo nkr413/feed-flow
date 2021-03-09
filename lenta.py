@@ -7,10 +7,6 @@ feed_flow = "@feed_flow"
 
 client = TelegramClient('lenta_nkr', lenta_id, lenta_hash).start()
 
-# @client.on(events.NewMessage(chats=(subs_base)))
-# async def handler(event):
-#   await client.forward_messages(feed_flow, event.message)
-
 async def handler(event):
 	await client.forward_messages(feed_flow, event.message)
 
