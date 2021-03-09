@@ -1,7 +1,7 @@
 from telethon import TelegramClient, events, sync
 
-lenta_id = 3081639
-lenta_hash = "956797cee84ce327876b7465c01a066f"
+lenta_id = "..."
+lenta_hash = "..."
 subs_base = []
 feed_flow = "@feed_flow"
 
